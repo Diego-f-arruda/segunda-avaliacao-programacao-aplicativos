@@ -30,7 +30,7 @@ function render() {
         span.textContent = garagem[i].text;
 
         const img = document.createElement("img")
-        img.src = 
+        img.src = carros.foto
 
         const div = document.createElement("div");
 
