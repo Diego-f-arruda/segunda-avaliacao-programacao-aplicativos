@@ -3,3 +3,71 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: cursive;
+  background-color: rgb(121, 120, 120);
+  display: row;
+  justify-content: center;
+  height: 100vw;
+}
+
+h1{
+  background-color: rgb(187, 240, 247);
+  text-align: center;
+  color: #658545;
+  border-radius: 10px;
+  display: flex;
+  height: 10dvh;
+  width: 80%;
+  padding: 15px;
+  margin: 20px;
+}
+
+.container{
+  background-color: rgb(121, 120, 120);
+  margin-top: 20px;
+  width: 80dvh;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  height: 80%;
+  display: flex;
+}
+
+
+.caixaEsquerda{
+  background-color: rgb(187, 240, 247); 
+  width: 20%;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  display: row;
+  margin:10px;
+  flex: 1;
+
+}
+
+#lista-item{
+  list-style-type: none;
+  
+}
+
+#modelo, #cor, #ano, #preco, #foto, #vendido{
+  display: flex;
+  border: 1;
+  margin-left: 5px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+.caixaDireita{
+  background-color:  rgb(187, 240, 247);;
+  width: 60%;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  display: row;
+  margin: 10px;
+  flex: 4;
+}

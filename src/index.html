@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Garagem Senai</h1>
+  <div class="container">
+    
+    <div class="caixaEsquerda">
+      <ul id="lista-item">
+        <li><input type="text" id="modelo" placeholder="Modelo"></li>
+        <li><input type="color" id="cor"></li>
+        <li><input type="number" id="ano" min="1900" max="2025" placeholder="Ano"></li>
+        <li><input type="text" id="preco" placeholder="Preço"></li>
+        <li><input type="text" id="Foto" placeholder="Foto"></li>
+        <li><input type="checkbox" id="vendido"></li>
+
+        <input type="text" name="cadastrar" id="cadastrar" placeholder="Cadastrar" onkeypress="addPeloEnter(event)" >
+      </ul>
+    </div>
+    <div class="caixaDireita">
+      <ul id="lista-veiculos">
+
+      </ul>
+    </div>
   
+  </div>
+
+
   <script src="script.js"></script>
 </body>
 </html>
